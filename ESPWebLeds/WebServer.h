@@ -2,8 +2,8 @@
 #include <ESP8266WiFi.h>
 
 
-const char* ssid = "Sky.Net";   // 192.168.200.254
-const char* password = "V34kkhx7hkk43v7x";
+const char* ssid = "Wi-Fi Network Name";   
+const char* password = "Wi-Fi password";
 
 unsigned long ulReqcount;
 unsigned long ulReconncount;
