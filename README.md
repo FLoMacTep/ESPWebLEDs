@@ -28,6 +28,13 @@ To adapt code please edit this lines -
  
  GET query is looks like http://192.168.1.134/?sCmd=OFF or http://192.168.1.134/?sCmd=Rainbow
  
+ Executing a random effect from Majordomo server:
+ 
+	$ip=$this->getProperty('IP'); // Get ESP IP Address
+	$effect=getRandomLine("EffectList"); //Get effect name from text file
+	$cmdURL="http://".$ip."/?sCmd=".$effect.""; // Construct Get Request
+	geturl($cmdURL); //EXEC Get request
+ 
  Full list of effects is in file "EffectList"
  
  Please help me to improve arduino code and fix some bugs!
