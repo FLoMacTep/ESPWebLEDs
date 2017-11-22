@@ -6,7 +6,7 @@ To setup environment you will need:
 
       ☼ ESP8266 
       ☼ WS2812B
-      ☼ Power Supply 5V (for long distance LED strips)
+      ☼ Power Supply 5V (for a large number of LEDS)
       ☼ Arduino IDE with next libraries:
         -  FastLED
         -  ESP8266WiFi
