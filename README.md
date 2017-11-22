@@ -2,7 +2,7 @@
 
 ESP controlled WS2812B LED strip with several effects managed by Web page and GET query
 
-To setup environment you will need
+To setup environment you will need:
 
       ☼ ESP8266 
       ☼ WS2812B
@@ -11,7 +11,7 @@ To setup environment you will need
         -  FastLED
         -  ESP8266WiFi
 	  
-To adopt code please edit this lines
+To adapt code please edit this lines -
 
       LEDEffects.h
 	
@@ -26,11 +26,11 @@ To adopt code please edit this lines
 		  
  Open in browser http://"ESP board IP address"/
  
- GET query looks like http://192.168.1.134/?sCmd=OFF or http://192.168.1.134/?sCmd=Rainbow
+ GET query is looks like http://192.168.1.134/?sCmd=OFF or http://192.168.1.134/?sCmd=Rainbow
  
- Full list of effects in file "EffectList"
+ Full list of effects is in file "EffectList"
  
  Please help me to improve arduino code and fix some bugs!
  
- Schema
+ Scheme
 ![espwebleds_bb](https://user-images.githubusercontent.com/26871772/32985582-a31b1060-cccf-11e7-9ef3-79955ffe4da7.jpg)
