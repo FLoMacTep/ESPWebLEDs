@@ -1,6 +1,6 @@
 # ESPWebLEDs
 
-ESP controlled WS2812B LED strip with several effects managed by Web page and GET query
+ESP controlled WS2812B LED strip with several effects managed by Web page and GET requests
 
 To setup environment you will need:
 
